@@ -112,7 +112,9 @@ body {
   font-size: 1.2rem;
   margin: 1rem 0 0.5rem 0;
   }
-  
+  img[alt="Logo de la empresa"] {
+    width: 200px; /* Establecer el ancho en 200 píxeles */
+  }
   input[type="text"],
   input[type="email"],
   textarea {
