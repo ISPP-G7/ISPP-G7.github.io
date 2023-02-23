@@ -1,139 +1,145 @@
 /* Estilos generales */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4; /* Light gray */
   }
   
   a {
-    color: #1b1b1b;
-    text-decoration: none;
+  color: #404040; /* Dark gray */
+  text-decoration: none;
   }
   
   a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
   }
   
   header {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #EF767A; /* Coral pink */
+  padding: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   nav {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
   }
   
   ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
   }
   
   li {
-    padding: 0.5rem;
+  padding: 0.5rem;
   }
   
   section {
-    max-width: 1200px;
-    margin: 2rem auto;
+  max-width: 1200px;
+  margin: 2rem auto;
+  }
+  
+  section#equipo {
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: #FFB884; /* Light orange */
   }
   
   section div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   }
   
   h1 {
-    font-size: 3rem;
-    margin: 1rem 0;
+  font-size: 3rem;
+  margin: 1rem 0;
   }
   
   h2 {
-    font-size: 2rem;
-    margin: 1rem 0;
+  font-size: 2rem;
+  margin: 1rem 0;
   }
   
   p {
-    font-size: 1.2rem;
-    margin: 1rem 0;
+  font-size: 1.2rem;
+  margin: 1rem 0;
   }
   
   ol {
-    text-align: left;
+  text-align: left;
   }
   
   li {
-    font-size: 1.2rem;
-    margin: 1rem 0;
+  font-size: 1.2rem;
+  margin: 1rem 0;
   }
   
   ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
   }
   
   li {
-    flex-basis: 30%;
-    margin-bottom: 2rem;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    border-radius: 5px;
-    text-align: center;
+  flex-basis: 30%;
+  margin-bottom: 2rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
   }
   
   img {
-    width: 100%;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
   }
   
   form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
   
   label {
-    font-size: 1.2rem;
-    margin: 1rem 0 0.5rem 0;
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem 0;
   }
   
   input[type="text"],
   input[type="email"],
   textarea {
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 1rem;
-    width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
   }
   
   button[type="submit"] {
-    background-color: #1b1b1b;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #F4A261; /* Light orange /
+  color: #FFFFFF; / White */
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
   }
   
   button[type="submit"]:hover {
-    background-color: #3b3b3b;
+  background-color: #FF6B6B; /* Coral pink */
   }
-  
   footer {
-    background-color: #f5f5f5;
+    background-color: #EF767A; /* Coral pink */
     padding: 1rem;
     box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
