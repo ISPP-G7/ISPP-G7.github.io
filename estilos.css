@@ -6,8 +6,14 @@ background-color: #F4F4F4; /* Light gray */
 }
 
 a {
-color: #404040; /* Dark gray */
+color: #5a234c; /* Dark gray */
 text-decoration: none;
+font-weight: 900;
+text-shadow:-1px 0px 0px red,
+1px 0px 0px red,
+0px -1px 0px red,
+0px 1px 0px #8B5FBF;color: rgb(7, 3, 6);
+
 }
 
 a:hover {
@@ -24,7 +30,6 @@ nav {
 max-width: 1200px;
 margin: 0 auto;
 font-size: 0rem auto;
-font-weight: 900;
 
 }
 
