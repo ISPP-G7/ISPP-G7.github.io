@@ -9,10 +9,10 @@ a {
 color: #5a234c; /* Dark gray */
 text-decoration: none;
 font-weight: 900;
-text-shadow:-1px 0px 0px red,
-1px 0px 0px red,
-0px -1px 0px red,
-0px 1px 0px #8B5FBF;color: rgb(7, 3, 6);
+text-shadow:-1px 0px 0px pink,
+1px 0px 0px pink,
+0px -1px 0px pink,
+0px 1px 0px pink;color: rgb(7, 3, 6);
 
 }
 
